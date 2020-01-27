@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HelloWorld from "@/components/HelloWorld";
+import GMap from "@/components/home/GMap";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "HelloWorld",
-    component: HelloWorld
+    name: "GMap",
+    component: GMap
   }
 ];
 
